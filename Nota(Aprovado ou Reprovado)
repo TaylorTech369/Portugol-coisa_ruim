@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+
+real no1, no2, no3, no4, no5, soma, media
+
+escreva("primeira nota ")
+leia(no1)
+escreva("segunda nota ")
+leia(no2)
+escreva("terceira nota ")
+leia(no3)
+escreva("quarta nota ")
+leia(no4)
+escreva("quinta nota ")
+leia(no5)
+
+soma = (no1 + no2 + no3 + no4 + no5 )
+media = (soma / 5)
+escreva(media)
+
+se(media >= 7)
+ escreva("\n aprovado, Parabens!!!")
+senao
+ escreva("\n reprovado, que tristeza")
+
+
+
+  }
+}
