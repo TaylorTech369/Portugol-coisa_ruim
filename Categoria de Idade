@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+inteiro idade
+escreva("sua idade é ")
+leia(idade)
+se(idade < 1)
+escreva("O que???")
+senao se(idade <= 12)
+escreva("Crianção")
+senao se(idade <= 17)
+escreva("Adolescente")
+senao se(idade <= 59)
+escreva("Adulto, ja pode ser preso")
+senao se(idade < 120)
+escreva("Idoso, pé na cova?")
+senao se(idade >= 120)
+escreva("Que isso??? Usando hack??????")
+senao
+escreva("O que???")
+
+  }
+}
