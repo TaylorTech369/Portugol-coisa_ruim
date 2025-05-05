@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+  
+inteiro num, x
+x = 1
+escreva("seu numero é ")
+leia(num)
+
+enquanto (x <= 20){
+escreva(num * x, "\n")
+x += 1}
