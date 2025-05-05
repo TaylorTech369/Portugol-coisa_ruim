@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+
+inteiro idade
+escreva("sua idade é ")
+leia(idade)
+se(idade >= 18)
+ escreva("você tem ", idade, " anos, você é de maior" )
+senao
+ escreva("você tem ", idade, " anos, você é de menor")
+
+
+
+  }
+}
